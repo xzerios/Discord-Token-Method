@@ -28,4 +28,4 @@ This is a way to obtain your Discord token almost immediately! That means no mor
     m => m?.exports?.default?.getToken !== void 0
 ).exports.default.getToken()
 ```
-**4)** Your token then gets printed to console
+- Your token then gets printed to console
