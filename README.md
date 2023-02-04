@@ -29,3 +29,5 @@ This is a way to obtain your Discord token almost immediately! That means no mor
 ).exports.default.getToken()
 ```
 - Your token then gets printed to console
+- Or use this code which automatically copies it to clipboard:
+```window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x)) {if (m.default && m.default.getToken !== undefined) {return copy(m.default.getToken())}if (m.getToken !== undefined) {return copy(m.getToken())}}}]); console.log("%cIt worked!", "font-size: 50px"); console.log(`%cYou now have your token in the clipboard!`, "font-size: 16px")```
